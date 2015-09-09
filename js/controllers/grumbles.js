@@ -42,11 +42,7 @@
       this.reset();
     };
     this.addComment = function(index){
-      console.log(this.grumbles[index]);
       this.grumbles[index].comments.push({commentAuthor: this.commentAuthor, commentContent: this.commentContent});
-      console.log(this.grumbles[index].commentAuthor);
-      console.log(this.grumbles[index].commentContent);
-      console.log(this.grumbles[index]);
     };
 
   });
